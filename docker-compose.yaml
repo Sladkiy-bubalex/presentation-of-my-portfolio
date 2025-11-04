@@ -13,7 +13,7 @@ services:
     image: nginx:1.21
     ports:
       - "80:80"
-      # - "443:443"
+      - "443:443"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - /etc/ssl/certs/my_cert.crt:/etc/ssl/certs/my_cert.crt
