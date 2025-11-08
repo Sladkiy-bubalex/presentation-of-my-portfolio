@@ -12,7 +12,8 @@ dependencies = [
     "pydantic (>=2.12.3,<3.0.0)",
     "pydantic-settings (>=2.11.0,<3.0.0)",
     "uvicorn (>=0.38.0,<0.39.0)",
-    "email-validator (>=2.3.0,<3.0.0)"
+    "email-validator (>=2.3.0,<3.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)"
 ]
 
 

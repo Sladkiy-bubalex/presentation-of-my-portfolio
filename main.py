@@ -8,9 +8,8 @@ from api import router as api_router
 
 app = FastAPI(
     title=settings.project.title,
-    description=settings.project.description,
+    description=settings.project.description + '\n\n' + settings.project.contact_description(),
     version=settings.project.release_version,
-    contact=settings.project.contact,
     docs_url=None,
     redoc_url=None,
 )
